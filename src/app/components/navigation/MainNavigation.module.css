@@ -1,0 +1,13 @@
+.mainPage {
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 100%;
+}
+
+.navDrawerContainer {
+  background-color: #484644;
+}
+
+.pagesContainer {
+  width: 100%;
+}

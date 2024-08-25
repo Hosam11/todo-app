@@ -1,0 +1,30 @@
+.taskContainer {
+  display: flex;
+  align-items: center;
+  background-color: rgb(66, 66, 66);
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+  padding-left: 0.5rem;
+  transition: transform 1s;
+}
+
+.input {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 2rem;
+}
+
+.taskTitle {
+  margin-left: 0.5rem;
+}
+
+.completedTask {
+  text-decoration: line-through;
+}
+
+.deleteButton {
+  margin-left: auto;
+  margin-right: 1rem;
+  background-color: transparent;
+  border: none;
+}

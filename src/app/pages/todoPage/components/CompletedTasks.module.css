@@ -1,0 +1,42 @@
+.expandedButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  margin-top: 0.5rem;
+}
+
+.h2 {
+  padding: 0.8rem 0;
+  margin: 0;
+}
+
+.tasksLength {
+  font-size: 1rem;
+  margin-left: 0.8rem;
+}
+
+.expanded {
+  transform: rotate(90deg);
+}
+
+.collapsed {
+  transform: rotate(0deg);
+}
+
+.expandedIcon {
+  display: inline-block;
+  margin-right: 0.4rem;
+  transition: transform 0.3s;
+  padding: 0;
+}
+
+.hr {
+  margin-left: 0.5rem;
+
+  border: none;
+  border-top: 2px solid rgb(215, 215, 215);
+}

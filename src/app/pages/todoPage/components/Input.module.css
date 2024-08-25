@@ -1,0 +1,32 @@
+.row {
+  display: flex;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 1rem;
+  width: 100%;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0.9rem;
+  color: #ccc;
+}
+.input {
+  border: 0 solid red;
+  font-size: var(--font-size-large);
+  border-radius: 0.2rem;
+  width: 100%;
+  padding: 1rem 0 1rem 3rem;
+}
+
+.addButton {
+  width: 5rem;
+  border-radius: 0.2rem;
+  border: 0;
+  font-size: 1.2rem;
+}
